@@ -3,6 +3,9 @@
 @import "compass/reset";
 @import "compass/css3/box-shadow";
 
+//sass Imports
+@import "materialize.scss"
+
 //Core partials
 @import "variables";
 @import "mixins";

@@ -1,6 +1,18 @@
+body{
+	background-color:$main-background;
+}
+
 #container{
 	width:90%;
 	max-width:1000px;
 	margin:0 auto;
 	position:relative;
+	background-color:darken($main-background,10%)
+}
+
+#potato{
+	bottom:5px;
+	img{
+		top:5px;
+	}
 }

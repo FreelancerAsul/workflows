@@ -54,9 +54,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+body {
+  background-color: #ececec;
+}
+
 #container {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
+  background-color: lightgray;
+}
+
+#potato {
+  bottom: 5px;
+}
+#potato img {
+  top: 5px;
 }
